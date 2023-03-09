@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+:root {
+  --color-fondo: #FAF8F1;
+  --color-primario: #FAEAB1;
+  --color-secundario: #E5BA73;
+  --color-terceario: #C58940
+}
+
+
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  background-color: white;
+  /* background-color: var(--color-fondo); */
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+* body h1 h2 h3 h4 h5 {
+  color: var(--color-primario);
+}
+
+* h1, a {
+  color: var(--color-secundario);
+}
+
+* h2 {
+  color: var(--color-terceario);
+}
+
+/* h2 {
+  font-size: ;
+} */

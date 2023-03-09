@@ -1,0 +1,23 @@
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px 0px 
+        ;
+}
+
+.contenedor-contacto h2 {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+
+.contenedor-contacto a {
+    text-decoration: none;
+    margin: 5px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    
+}
