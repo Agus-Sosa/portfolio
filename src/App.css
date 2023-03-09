@@ -41,6 +41,16 @@
 
 * a {
   color: var(--color-terceario);
+  
+}
+
+a {
+  color: var(--color-secundario);
+  transition: .5s all;
+}
+
+a:hover {
+  color: var(--color-terceario);
 }
 
 /* h2 {

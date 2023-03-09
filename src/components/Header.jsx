@@ -65,9 +65,15 @@ const Header = ({ name, ...props }) => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
+                    <Link to={'Sobremi'} className='text-decoration-none'>
                     <Nav.Link href="#action1">Acerca de mi</Nav.Link>
-                    <Nav.Link href="#action2">Proyectos</Nav.Link>
-                    <Nav.Link href='#action3'> Contacto</Nav.Link>
+                    </Link> 
+                    <Link to={'Proyectos'} className='text-decoration-none'>
+                        <Nav.Link href="#action2">Proyectos</Nav.Link>
+                    </Link>             
+                    <Link to={'Contactos'} className='text-decoration-none'>
+                        <Nav.Link href='#action3'> Contacto</Nav.Link>
+                    </Link>
                     </Nav>
                     
                 </Offcanvas.Body>
