@@ -35,7 +35,7 @@
     color: var(--color-terceario);
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 530px) and (min-width: 361px) {
     .contenedor-nombre {
         display: none;
     }
@@ -48,5 +48,23 @@
     }
     .contenedor-links span {
         margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contenedor-nombre {
+        display: none;
+    }
+
+    .contenedor-links span {
+        margin: 0px 5px;
+    }
+
+    .contenedor-header {
+        margin: 0px;
+        padding: 20px   ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        justify-content: center;
+        
     }
 }
