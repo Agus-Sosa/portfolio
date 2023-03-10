@@ -6,9 +6,8 @@ const Contacto = () => {
         <div className="contenedor">
         <section className="contenedor-contacto">
             <h2>Contacto</h2>
-            <a href="">Instagram</a>
             <a href="https://www.linkedin.com/in/agust%C3%ADn-sosa-a6b29b248/">Linkedin</a>
-            <a href="">Email</a>
+            <a href="mailto:sosaagustin351@gmail.com?Subject=Aquí%20el%20asunto%20del%20email">Email</a>
         </section>
         </div>
         </>
