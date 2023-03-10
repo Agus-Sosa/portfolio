@@ -32,7 +32,7 @@ const Proyectos = () => {
         <p>El proyecto que realice fue un Ecommerce de Videojuegos, utilizando lo basico (HTML, CSS)</p>
         <div className="contenedor-herramientas">
           <h4>Herramientas</h4>
-          <p>HTML, CSS, SASS, BOOTSTRAP, GIT, GITHUB</p>
+          <p>HTML, CSS, Sass, Bootstrap, Git, GitHub</p>
         </div>
         </section>
         <div className="division"></div>
@@ -47,7 +47,7 @@ const Proyectos = () => {
           <p>El Segundo proyecto realice fue una web dedicada a series, utilizando Javascript vanilla, hice la creacion del apartado de favoritos y tambien el apartado de las suscripciones </p>
           <div className="contenedor-herramientas">
             <h4>Herramientas</h4>
-            <p>HTML, CSS, SASS, JS</p>
+            <p>HTML, CSS, Sass, JavaScript</p>
           </div>
         </section>
         <div className="division"></div>
@@ -64,7 +64,7 @@ const Proyectos = () => {
           </p>
           <div className="contenedor-herramientas">
             <h4>Herramientas</h4>
-            <p>HTML, CSS, REACT.JS, TAILWIND, DAISY UI, FIREBASE </p>
+            <p>HTML, CSS, React.js, Tailwind, Daisy ui, Firebase </p>
           </div>
         </section>
       </div>

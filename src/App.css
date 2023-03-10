@@ -10,6 +10,7 @@
   --color-primario: #FAEAB1;
   --color-secundario: #E5BA73;
   --color-terceario: #C58940
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 
@@ -25,6 +26,10 @@
 
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 
 * body h1 h2 h3 h4 h5 {

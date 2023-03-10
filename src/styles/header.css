@@ -14,9 +14,13 @@
 }
 
 
+.contenedor-nombre h3 {
+    font-weight: bold;
+}
+
 
 nav {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -75,31 +79,13 @@ nav a:hover {
 
     .link-slide {
         color: var(--color-secundario);
+        font-size: 20px;
+        
     }
 
     .link-slide:hover {
         color: var(--color-terceario);
     }
 
-    /* .contenedor-slide a {
-        text-decoration: none;
-    } */
+
 }
-/* 
-@media screen and (max-width: 360px) {
-    .contenedor-nombre {
-        display: none;
-    }
-
-    nav span {
-        margin: 0px 5px;
-    }
-
-    .contenedor-header {
-        margin: 0px;
-        padding: 20px   ;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        justify-content: center;
-        
-    }
-} */

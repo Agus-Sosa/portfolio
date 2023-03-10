@@ -16,17 +16,20 @@
 
 .contenedor-proyectos h2 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 
 .contenedor-proyecto h3 {
-    font-size: 20px;    
+    font-size: 20px;  
+    font-weight: bold;  
     margin: 1rem 0px;
 }
 
 
 .contenedor-proyecto p {
     margin: 15px 0px;
+    font-size: 18px;
 }
 
 .division {
@@ -37,7 +40,7 @@
 .contenedor-proyecto img {
     width: -webkit-fill-available;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .contenedor-herramientas {
@@ -53,6 +56,8 @@
 
 .contenedor-herramientas h4 {
     margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .contenedor-nav-rapida {
@@ -64,6 +69,7 @@
 
 .contenedor-nav-rapida h5 {
     font-size: 18px;
+    font-weight: bold;
 
 }
 
