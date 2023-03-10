@@ -27,28 +27,14 @@ const Header = ({ name, ...props }) => {
         <div className="contenedor-nombre">
         <h3>Agustin Sosa</h3>
         </div>
-        {/* <div className='contenedor-links'> */}
             <nav>
                 <Link to={'Sobremi'}><span>Sobre mi</span></Link>
                 <Link to={'Proyectos'}><span>Proyectos</span></Link>
                 <Link to={'Contactos'}><span>Contacto</span></Link>
             </nav>
-        {/* </div> */}
+        
         <div className="contenedor-slide" color='#E5BA73'>
-        {/* <Button color='#E5BA73' onClick={handleShow} className="me-2">
-        {name}
-        Menu
-      </Button>
-      <Offcanvas show={show} onHide={handleClose} {...props}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas> */}
-      {['sm'].map((expand) => (
+        {['sm'].map((expand) => (
             <Navbar key={expand} bg="light" expand={expand} className="mb-3">
             <Container fluid>
                 <Navbar.Brand href="#"></Navbar.Brand>
@@ -65,13 +51,13 @@ const Header = ({ name, ...props }) => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Link to={'Sobremi'} className='text-decoration-none'>
+                    <Link to={'Sobremi'} className='text-decoration-none link-slide'>
                     <Nav.Link href="#action1">Acerca de mi</Nav.Link>
                     </Link> 
-                    <Link to={'Proyectos'} className='text-decoration-none'>
+                    <Link to={'Proyectos'} className='text-decoration-none link-slide'>
                         <Nav.Link href="#action2">Proyectos</Nav.Link>
                     </Link>             
-                    <Link to={'Contactos'} className='text-decoration-none'>
+                    <Link to={'Contactos'} className='text-decoration-none link-slide'>
                         <Nav.Link href='#action3'> Contacto</Nav.Link>
                     </Link>
                     </Nav>

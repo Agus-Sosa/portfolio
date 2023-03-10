@@ -81,6 +81,7 @@
 
 .contenedor-nav-rapida a {
     text-decoration: none;  
+    color: var(--color-secundario);
     transition: .5s all;
     }
 

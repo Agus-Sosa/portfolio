@@ -6,6 +6,7 @@ import { Routes, Route, BrowserRouter, Router } from 'react-router-dom'
 import SobreMi from './components/SobreMi'
 import Proyectos from './components/Proyectos'
 import Contacto from './components/Contacto'
+
 // import '../src/index.css'
 import Header from './components/Header'
 

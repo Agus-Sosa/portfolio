@@ -30,11 +30,14 @@ nav span {
     nav a {
     text-decoration: none;
     transition: .5s all;
+    color: var(--color-secundario);
 }
 
 nav a:hover {
     color: var(--color-terceario);
 }
+
+
 
 
 .contenedor-slide {
@@ -64,6 +67,18 @@ nav a:hover {
 
     .contenedor-slide {
         display: flex;
+    }
+
+    .contenedor-slide a {
+        color: var(--color-secundario);
+    }
+
+    .link-slide {
+        color: var(--color-secundario);
+    }
+
+    .link-slide:hover {
+        color: var(--color-terceario);
     }
 
     /* .contenedor-slide a {

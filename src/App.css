@@ -39,13 +39,8 @@
   color: var(--color-terceario);
 }
 
-* a {
-  color: var(--color-terceario);
-  
-}
-
 a {
-  color: var(--color-secundario);
+  color: var(--color-terceario);
   transition: .5s all;
 }
 
