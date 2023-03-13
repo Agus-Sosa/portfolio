@@ -47,7 +47,7 @@
 }
 
 .contenedor-skills h2{
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .contenedor-skills ul li {
@@ -58,6 +58,13 @@
 }
 
 
+
+
 .contenedor-skills ul li svg {
     color: var(--color-terceario);
+}
+
+
+.contenedor-skills p {
+    font-size: 18px;
 }
