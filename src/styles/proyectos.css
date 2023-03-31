@@ -43,6 +43,26 @@
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+
+.contenedor-ver-proyecto {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+    font-size: 15px;
+
+}
+
+.contenedor-ver-proyecto a{ 
+    background: none;
+    color: var(--color-secundario);
+    
+}
+
+.contenedor-ver-proyecto a:hover {
+    color: #c59b56;
+}
+
+
 .contenedor-herramientas {
     margin: 3rem 0px;
     padding: 15px;
